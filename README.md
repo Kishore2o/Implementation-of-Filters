@@ -6,6 +6,7 @@ To implement filters for smoothing and sharpening the images in the spatial doma
 Anaconda - Python 3.7
 
 ## Algorithm:
+
 ### Step1
 Import cv2, matplotlib.py libraries and read the saved images using cv2.imread().
 
@@ -27,7 +28,7 @@ Plot the images of the original one and the filtered one using plt.figure() and 
 
 
 ### 1. Smoothing Filters
-
+```
 i) Using Averaging Filter
 Python
 import cv2
@@ -48,12 +49,12 @@ plt.title("Average Filter Image")
 plt.axis("off")
 plt.show()
 
-
+```
 
 
 
 ii) Using Weighted Averaging Filter
-Python
+```
 kernel1=np.array([[1,2,1],[2,4,2],[1,2,1]])/16
 image3=cv2.filter2D(image2,-1,kernel1)
 plt.figure(figsize=(8,8))
@@ -68,12 +69,12 @@ plt.axis("off")
 plt.show()
 
 
-
+```
 
 
 
 iii) Using Gaussian Filter
-Python
+```
 gaussian_blur=cv2.GaussianBlur(image2,(33,33),0,0)
 plt.figure(figsize=(8,8))
 plt.subplot(1,2,1)
@@ -86,13 +87,13 @@ plt.title("Gaussian Blur")
 plt.axis("off")
 plt.show()
 
-
+```
 
 
 
 
 iv) Using Median Filter
-Python
+```
 median=cv2.medianBlur(image2,13)
 plt.figure(figsize=(8,8))
 plt.subplot(1,2,1)
@@ -106,14 +107,14 @@ plt.axis("off")
 plt.show()
 
 
-
+```
 
 
 
 
 ### 2. Sharpening Filters
 i) Using Laplacian Kernal
-Python
+```
 kernel2=np.array([[-1,-1,-1],[2,-2,1],[2,1,-1]])
 image3=cv2.filter2D(image2,-1,kernel2)
 plt.figure(figsize=(8,8))
@@ -126,14 +127,14 @@ plt.imshow(image3)
 plt.title("Laplacian Kernel")
 plt.axis("off")
 plt.show()
-
+```
 
 
 
 
 
 ii) Using Laplacian Operator
-Python
+```
 laplacian=cv2.Laplacian(image2,cv2.CV_64F)
 plt.figure(figsize=(8,8))
 plt.subplot(1,2,1)
@@ -146,7 +147,7 @@ plt.title("Laplacian Operator")
 plt.axis("off")
 plt.show()
 
-
+```
 
 
 
