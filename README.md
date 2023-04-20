@@ -158,7 +158,7 @@ plt.show()
 ![OUTPUT](./images/imp.jpg)
 
 ## ii) Using Weighted Averaging Filter
-![OUTPUT](./images/imgpb.jpg)
+
 
 ## iii) Using Gaussian Filter
 ![OUTPUT](./images/impc.jpg)
