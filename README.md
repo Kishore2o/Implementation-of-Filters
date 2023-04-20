@@ -155,23 +155,29 @@ plt.show()
 ## OUTPUT:
 ### 1. Smoothing Filters
 ## i) Using Averaging Filter
-![OUTPUT](./images/imp.jpg)
+![imp](https://user-images.githubusercontent.com/118679883/233408088-ab482275-034d-4411-ab13-010ce373564b.jpg)
+
 
 ## ii) Using Weighted Averaging Filter
-![OUTPUT](./images/impb.jpg)
+![imp 2](https://user-images.githubusercontent.com/118679883/233408228-e3147a52-ee1c-4ac2-854b-8e49c9a3f66d.jpg)
+
 
 ## iii) Using Gaussian Filter
-![OUTPUT](./images/impc.jpg)
+![imp 3](https://user-images.githubusercontent.com/118679883/233408282-434c9eaa-f60b-430a-b24c-51f8f3bb25c5.jpg)
+
 
 ## iv) Using Median Filter
-![OUTPUT](./images/imgd.jpg)
+![img 4](https://user-images.githubusercontent.com/118679883/233408335-67208b99-7329-4903-b843-0ba796e461a1.jpg)
+
 
 ### 2. Sharpening Filters
 ## i) Using Laplacian Kernal
-![OUTPUT](./images/imge.jpg)
+![img 5](https://user-images.githubusercontent.com/118679883/233408402-14d3f372-d5b8-4305-b397-12bf95212c55.jpg)
+
 
 ## ii) Using Laplacian Operator
-![OUTPUT](./images/impf.jpg)
+![imp 6](https://user-images.githubusercontent.com/118679883/233408477-644a7a7e-a503-4618-b0bd-743b2a98489a.jpg)
+
 
 
 ## Result:
