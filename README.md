@@ -157,20 +157,20 @@ plt.show()
 ![OUTPUT](./images/imp.jpg)
 
 ## ii) Using Weighted Averaging Filter
-![OUTPUT](./images/img 2.jpg)
+![OUTPUT](./images/imgpb.jpg)
 
 ## iii) Using Gaussian Filter
-![OUTPUT](./images/img 3.jpg)
+![OUTPUT](./images/impc.jpg)
 
 ## iv) Using Median Filter
-![OUTPUT](./images/img 4.jpg)
+![OUTPUT](./images/imgd.jpg)
 
 ### 2. Sharpening Filters
 ## i) Using Laplacian Kernal
-![OUTPUT](./images/img 5.jpg)
+![OUTPUT](./images/imge.jpg)
 
 ## ii) Using Laplacian Operator
-![OUTPUT](./images/img 6.jpg)
+![OUTPUT](./images/impf.jpg)
 
 
 ## Result:
